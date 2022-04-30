@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=33983
+fileID=138110
+url=
+name=R88SimpleSorter_INNR
+description=OPTIONAL: INNR File - See description for installation instructions
+modName=Ruddy88's Simple Sorter
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=3
+category=38
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

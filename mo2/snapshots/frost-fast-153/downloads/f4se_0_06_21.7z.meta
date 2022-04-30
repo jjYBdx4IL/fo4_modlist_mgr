@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=42147
+fileID=203272
+url=
+name=Fallout 4 Script Extender (F4SE)
+description=
+modName=Fallout 4 Script Extender (F4SE)
+version=0.6.21.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=6
+category=38
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

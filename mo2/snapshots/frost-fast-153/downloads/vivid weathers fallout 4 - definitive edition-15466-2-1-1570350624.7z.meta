@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=15466
+fileID=168156
+url=
+name=Vivid WEathers Fallout 4 - Definitive Edition
+description="<img src=\"http://brevis-design.de/extern/logo-FO4.png\">"
+modName=Vivid Weathers - Fallout 4 Edition - a Weather Mod and Climate Overhaul
+version=2.1.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=56
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

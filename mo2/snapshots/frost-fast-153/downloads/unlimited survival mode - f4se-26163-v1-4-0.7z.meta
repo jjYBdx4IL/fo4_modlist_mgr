@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=26163
+fileID=114124
+url=
+name=Unlimited Survival Mode - F4SE
+description="Requires game version V1.9.4 or above, F4SE V0.4.2 or above, MCM(optional) V1.0 or above."
+modName=Unlimited Survival Mode - F4SE
+version=1.4.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=15
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

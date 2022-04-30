@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=34035
+fileID=188245
+url=
+name=Puddle Remover Plus v6.02
+description=FOMOD Installer\n<br />CRC32: 77C91EB2\n<br /><br />Important:\n<br />Uninstall the mod No More Fake Puddles and previous versions of Puddle Remover Plus.\n<br />If prompted to override or replace existing files choose \"Yes\" or \"Yes to All\".
+modName=Puddle Remover Plus
+version=f6.02
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=2
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

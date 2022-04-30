@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=17507
+fileID=70294
+url=
+name="Scavver&#39;s Toolbox"
+description="Main file; the scripts are packed in a BA2 archive. You don&#39;t need the other file if using this one."
+modName=Scavver's Toolbox - Portable Junk Scrapping
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=50
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

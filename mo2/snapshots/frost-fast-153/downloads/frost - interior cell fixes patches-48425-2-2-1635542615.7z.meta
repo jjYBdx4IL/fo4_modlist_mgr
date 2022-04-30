@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=48425
+fileID=220231
+url=
+name=FROST - Interior Cell Fixes Patches
+description="No longer supported. Use <a href=\"https://www.nexusmods.com/fallout4/mods/59652\">FROST CELL FIXES</a> instead.\n<br /><br />FOMOD with various patches:\n<br />- Ultra Interior Lighting\n<br />- FROST - More Starting Locations\n<br />- FROST - Nuka World AddOn"
+modName=FROST - Interior Cell Fixes -DEPRECATED-
+version=2.2.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=6
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

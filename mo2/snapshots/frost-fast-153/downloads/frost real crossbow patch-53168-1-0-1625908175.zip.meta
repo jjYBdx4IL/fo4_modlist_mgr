@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=53168
+fileID=212255
+url=
+name=Frost Real Crossbow Patch
+description=
+modName=FROST Better Crossbow Weapon Patch
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=4
+category=25
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=true
+uninstalled=false
+paused=false
+removed=false

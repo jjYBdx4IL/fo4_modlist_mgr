@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=48839
+fileID=224721
+url=
+name=Frost Unofficial Updates
+description=Fixed a bug with the Steiner's Gate Perk. It messed up the Chemist Perk. You have to install this patch and use/install LevelUpMenuEx (unless you already use it) or you have to start a new character. I am sorry for the inconvenience
+modName=FROST Unofficial Updates
+version=0.9.3.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=4
+category=24
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=54950
+fileID=220501
+url=
+name=FROST - Exterior Cell Fixes Patches
+description="No longer supported. Use <a href=\"https://www.nexusmods.com/fallout4/mods/59652\">FROST CELL FIXES</a> instead.\n<br />FOMOD with various patches:\n<br />- Ultra Exterior Lighting\n<br />- FROST - Nuka World AddOn\n<br />- FROST - The Forest Patch\n<br />- FROST - The Marshland DLC Patch"
+modName=FROST - Exterior Cell Fixes -DEPRECATED-
+version=1.1.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=6
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

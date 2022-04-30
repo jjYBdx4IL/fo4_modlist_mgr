@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=48847
+fileID=229669
+url=
+name=FROST PLUS - Main
+description=Fixed some leftover oversights and changed some load-screens. Probably the last short update for a while.
+modName=FROST Plus v0.5.2 (WIP)
+version=0.5.1.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=4
+category=24
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

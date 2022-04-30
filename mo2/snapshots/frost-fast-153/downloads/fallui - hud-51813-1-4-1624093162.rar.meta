@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=51813
+fileID=210598
+url=
+name=FallUI - HUD
+description="FOMOD installer. HUD is multilanguage. \n<br /><br />If you update having a unique own layout:\n<br />Don't overwrite your layout file (MCM&#92;Settings&#92;FallUIHUD.ini)\n<br />Mod Organizer 2 users: Use install-over+merge\n<br />Vortex users: Please read sticky post"
+modName=FallUI - HUD
+version=1.4.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=37
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=53701
+fileID=214790
+url=
+name=FROST - Murdering Chainsaw
+description=It is not safe to update to this version from version 1.0 mid-playthrough!\n<br /><br />See changelog for details.
+modName=FROST - Murdering Chainsaw
+version=1.1.1.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=41
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

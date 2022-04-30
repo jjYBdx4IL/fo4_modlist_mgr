@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=57372
+fileID=227035
+url=
+name=FROST - UFO4P Patch
+description="Load directly after FROST, FROST Unofficial Updates and FROST+"
+modName=FROST - UFO4P Compatibility Patch
+version=1.1.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=7
+category=25
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=112
+fileID=75081
+url=
+name=Silent UI 2.1
+description=
+modName=Silent UI
+version=2.1.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=35
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

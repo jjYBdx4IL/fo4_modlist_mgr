@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=27479
+fileID=172411
+url=
+name=Crafting Highlight Fix 1.8.8
+description="For Fallout 4 game version 1.10.163\n<br /><br />To update, simply replace and overwrite the old files. Crafting Highlight Fix is stateless and can be safely updated at any time."
+modName=Crafting Highlight Fix
+version=1.8.8.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=15
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

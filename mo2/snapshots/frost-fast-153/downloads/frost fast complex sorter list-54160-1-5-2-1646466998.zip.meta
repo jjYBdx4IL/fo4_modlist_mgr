@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=54160
+fileID=231298
+url=
+name=FROST Fast Complex Sorter List
+description=
+modName=
+version=1.5.2.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=7
+category=2
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

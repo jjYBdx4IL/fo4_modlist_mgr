@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=15380
+fileID=62221
+url=
+name=Far Harbor Trap Overhaul
+description="The main file, FHTO.esp"
+modName=Far Harbor Trap Overhaul
+version=1.1.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=24
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

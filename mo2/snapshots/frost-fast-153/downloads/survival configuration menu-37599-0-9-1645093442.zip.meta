@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=37599
+fileID=229854
+url=
+name=Survival Configuration Menu
+description=Main File\n<br /><br />Requirements:\n<br />Mod Configuration Menu ( https://www.nexusmods.com/fallout4/mods/21497/ )
+modName=Survival Configuration Menu
+version=0.9.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=24
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

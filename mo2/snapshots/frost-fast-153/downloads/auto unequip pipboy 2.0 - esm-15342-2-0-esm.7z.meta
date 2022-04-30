@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=15342
+fileID=121878
+url=
+name=Auto Unequip Pipboy 2.0 - ESM
+description="This is the esm-file version of vers 2.0, which supports the new esl-addons. Use this one if you start a new game. ESP version will be no longer supported. Updating from 2.0 to 2.0-ESM requires uninstall of old vers (incl. addon mods) and a clean save."
+modName=Unequip Pipboy (take off and put on the Pip-Boy)
+version=2.0.0.0-ESM
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=15
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

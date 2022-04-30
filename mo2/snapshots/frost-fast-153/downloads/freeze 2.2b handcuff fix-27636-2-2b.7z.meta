@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=27636
+fileID=121910
+url=
+name=Freeze 2.2b Handcuff fix
+description="Fixed an issue due to missing handcuff animations, enemies should now properly act as if handcuffed.\n<br />The previous patch was lacking the animation file for it."
+modName=Freeze Intimidation Overhaul
+version=2.2.0.0b
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=27
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

@@ -1,0 +1,52 @@
+09:16:42.165: Fallout 4 Mod Organizer, according to the INI file, appears to be located in G:\Modding\MO2\
+09:16:42.165: MO Path: G:\Modding\MO2\
+09:16:42.166: Mod Organizer base files for Fallout 4 found at G:\Modding\MO2\
+09:16:42.166: Mod Organizer profiles for Fallout 4 are located at G:\Modding\MO2\Profiles
+09:16:42.166: MO Profiles folder: G:\Modding\MO2\Profiles
+09:16:44.949: Mod Organizer was detected and the user was politely asked to close it.
+09:16:44.953: User failed to close Mod Organizer. Initiating Draugr Apocalypse...
+09:16:44.953: Backing up INIs...
+09:16:44.963: Finished backing up any INI files.
+09:16:44.981: Applying mod-suggested INI tweaks.
+09:16:44.981: Finished applying mod-suggested INI tweaks.
+09:16:44.023: INI files shall not be set to read-only.
+09:16:45.062: Framerate is set to 60.
+09:16:45.077: Screenshots will be saved in the "G:\Games\steamapps\common\Fallout 4\" directory with a base filename of "ScreenShot"
+09:16:45.077: The screenshot index number has been set to 0.
+09:16:45.077: The maximum number of autosaves has been set to 3
+09:16:45.109: Lock sensitivity has been set to 0.0300.
+09:16:45.109: Mouse X scale set to 0.0210.
+09:16:45.109: Mouse Y scale set to 0.0420.
+09:16:45.110: Mouse Wheel Zoom Speed has been set to 3.00.
+09:16:45.125: The percentage of the screen that the console can fill has been set to 40%.
+09:16:45.125: The console text size has been set to 20.
+09:16:45.188: Sun-Shadow Update Time set to 1.0
+09:16:45.188: Sun-Shadow Update Threshold set to 0.5
+09:16:45.202: All fade distance settings will be multiplied by 1.00 in-game.
+09:16:45.202: The distance that objects can be seen has been set to 30.0.
+09:16:45.203: The distance that actors can be seen has been set to 15.0.
+09:16:45.203: The distance that items can be seen has been set to 10.0.
+09:16:45.204: The distance that grass can be seen has been set to 14000.
+09:16:45.204: The grid that will be actively rendered and processed around the PC has been set to 5 by 5.
+09:16:45.257: Distant Object Detail Level 16 has been set to 110000.
+09:16:45.262: Distant Object Detail Level 32 has been set to 250000.
+09:16:45.267: Landscape LOD multiplier has been set to 1.500.
+09:16:45.272: Distant Object Detail Level 8 has been set to 90000.
+09:16:45.277: Distant Object Detail Level 4 has been set to 60000.
+09:16:45.297: Grass density has been set to 20 (higher values produce less grass).
+09:16:45.298: Grass diversity has been set to 3.
+09:16:45.507: Contents of BethINI.ini:
+[General]
+sGameName=Fallout 4
+sRestartedFromSetupTab=0
+bCreationKit=0
+bModifyCustomINIs=1
+[Directories]
+sGamePath=G:\Games\steamapps\common\Fallout 4\
+sFallout 4GameSettingsPath=G:\Modding\MO2\Profiles\Default\
+sFallout4ModOrganizerPath=G:\Modding\MO2\
+
+09:16:45.512: BethINI startup completed.
+09:16:48.040: Reverting your INI files...
+09:16:48.041: Custom.ini.BethINIbackup does not exist, so it will not be restored.
+09:16:48.044: Your INI files were successfully reverted.

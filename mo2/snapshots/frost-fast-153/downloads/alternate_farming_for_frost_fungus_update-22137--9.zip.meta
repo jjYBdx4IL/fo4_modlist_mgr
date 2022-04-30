@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=22137
+fileID=129819
+url=
+name=Alternate_Farming_for_FROST_Fungus_Update
+description=Update allows you to grow Glowing Fungus and Brain Fungus in the same fashion as your other crops.
+modName=Alternate Farming for FROST
+version=.9
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=45
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

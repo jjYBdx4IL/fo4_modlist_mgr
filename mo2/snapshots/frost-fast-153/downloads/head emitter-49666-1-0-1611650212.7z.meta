@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=49666
+fileID=199980
+url=
+name=Head Emitter
+description=Patch if using the Head Emitter
+modName=Unequip Pip-Boy and Pip-Boy Flashlight compatibility patch
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=25
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

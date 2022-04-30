@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=18898
+fileID=116842
+url=
+name=FROST v0.55 (Loose Files Version and .esp is not cleaned)
+description=
+modName=FROST Survival Simulator
+version=0.55.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=4
+category=24
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=true
+uninstalled=false
+paused=false
+removed=false

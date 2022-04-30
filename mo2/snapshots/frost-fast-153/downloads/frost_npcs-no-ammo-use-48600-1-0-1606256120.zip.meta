@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=48600
+fileID=195610
+url=
+name=FROST_NPCs-No-Ammo-Use
+description="USE ONLY THIS FILE OR THE OTHER, NOT BOTH! This version is used if you're just playing with FROST and NOT with Simplified Sorting."
+modName=FROST - NPC Ammo Tweak
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime="@DateTime(\0\0\0\x10\0\0\0\0\0\0%=\x9e\x3\x41\xfcx\0)"
+fileCategory=1
+category=22
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

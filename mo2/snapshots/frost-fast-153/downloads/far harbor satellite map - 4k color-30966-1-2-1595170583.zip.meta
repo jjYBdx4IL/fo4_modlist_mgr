@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=30966
+fileID=187196
+url=
+name=Far Harbor Satellite Map - 4K color
+description="Pip-Boy Far Harbor Satellite Map. 4K resolution (4096x4096)\n<br />Less contrast colors than v 1.1, smooter island border lines."
+modName=Far Harbor Satellite Map
+version=1.2.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=37
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

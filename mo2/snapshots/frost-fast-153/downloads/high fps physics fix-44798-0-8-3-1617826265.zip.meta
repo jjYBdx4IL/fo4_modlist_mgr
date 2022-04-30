@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=44798
+fileID=205372
+url=
+name=High FPS Physics Fix
+description="Edit the HighFPSPhysicsFix.ini file to your liking, which is located in the folder with the game Fallout 4&#92;Data&#92;F4SE&#92;Plugins or in the mod folder.\n<br /><br />For the game version 1.10.163.0\n<br />Requires F4SE"
+modName=High FPS Physics Fix
+version=0.8.3.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=4
+category=6
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false
