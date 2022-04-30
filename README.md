@@ -1,12 +1,15 @@
-## Fallout 4 Modlist Manager in Perl
+# Fallout 4 Modlist Manager in Perl
 
-### Why?!?
+## Available Mod Lists
 
-It's about managing files. Perl is perfect for that.
+All currently available mod lists are stored in [mo2/snapshots/](mo2/snapshots/).
 
-Also, it features a simple, highly transparent overlay mechanism.
+## Why?!?
 
-Also, compiling modlists is fast.
+- It's about managing files. Perl is perfect for that. No building/compiler/IDE needed to adjust the mod list manager. All you need is a text editor.
+- Features a simple, highly transparent overlay mechanism.
+- Compiling modlists is fast.
+- It's a command line tool!
 
 ## Homepage
 
@@ -44,7 +47,7 @@ Also, compiling modlists is fast.
 
 ## Notes
 
-- Some plugins are disabled because of bugs (see below).
+- Some plugins are disabled because of bugs. Those should be documented in a README_modlist.md file included with the modlist snapshot.
 - Some plugins are disabled but not removed because the meta information is used to download archives from nexus mods website. For such plugins, use MO2 to download the archive, then install the archive by unselecting all contained files and ignoring the MO2 warning.
 
 ## Possible Improvements
