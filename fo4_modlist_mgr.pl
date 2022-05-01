@@ -1,5 +1,11 @@
 #!/usr/bin/perl
 
+#
+# https://github.com/jjYBdx4IL/fo4_modlist_mgr
+#
+# License: MIT
+#
+
 use strict;
 use warnings;
 
@@ -117,7 +123,7 @@ foreach my $drive (split(" ", "c d e f g h i j k l m n")) {
         last;
     }
 }
-die unless -f "$fo4srcdir/Fallout4.exe";
+die "no Steam Fallout 4 installation found" unless -f "$fo4srcdir/Fallout4.exe";
 
 #
 # update base game file sigs

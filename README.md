@@ -27,7 +27,7 @@ All currently available mod lists are stored in [mo2/snapshots/](mo2/snapshots/)
 
 ## Installing a mod list
 
-**Beware! A mod list restore/install will DELETE all files in the current folder if they are not part of the snapshot!**
+**Beware! A mod list restore/install will DELETE all files in the current folder (incl. savegames!) if they are not part of the snapshot!**
  
 - `cd mo2 && ../fo4_modlist_mgr.pl --restore=<modlist-name>` - see snapshots/ dir for a list of available modlist names/versions.
 - The script is intended to be run from within the ModOrganizer2 root folder, ie. `snapshots/` folder is expected to be on the same level as `profiles/` or `downloads/`.

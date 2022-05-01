@@ -1,5 +1,7 @@
 # FROST-Fast
 
+FROST-Fast is a very performance-oriented FROST mod list. It should run fine on GTX 1060/3 GB cards at FullHD@60fps. It does not include changes to shaders/graphical postprocessing and neither does it include HD textures.
+
 - based on: https://github.com/richardaubin/FROST-Fast v1.5.2 (check it out for Optional High-Res Textures and how to modify ini files in case you want to modify your own ini files and not use the included ones)
 
 ## Homepage
@@ -8,7 +10,7 @@
 
 ## Installation
 
-You can ignore the following installation steps if you load the included save game.
+You can ignore the following installation steps if you load the included save game. All you need is an up-to-date and pristine Fallout 4 Steam installation with all DLCs and in English, but without HD textures.
 
 ### MCM Configuration
 
