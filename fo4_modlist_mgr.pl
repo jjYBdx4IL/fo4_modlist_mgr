@@ -4,12 +4,16 @@ use strict;
 use warnings;
 
 use Config::Tiny;
-use Digest::SHA qw(sha256_hex);
+use Digest::SHA;
 use File::Copy;
 use File::Find;
 use File::Path qw(make_path remove_tree);
-use File::Slurp qw(read_file);
+use File::Slurp qw(read_file write_file);
 use Getopt::Long;
+
+#
+# evaluate command line arguments
+#
 
 my $opt_verbose;
 my $opt_save;
@@ -37,6 +41,12 @@ if ($n_cmds >= 2) {
 }
 
 #
+# sanity check
+#
+
+die "no snapshots/ folder in current directory" unless -d "snapshots";
+
+#
 # clean/remove unpacked files
 #
 
@@ -55,6 +65,18 @@ if ($opt_clean) {
         remove_tree($fn) or die $!;
     }
     exit 0;
+}
+
+#
+# SHA computation
+#
+
+sub compute_sha_for_file {
+    my $fn = shift;
+    die unless defined $fn;
+    my $sha = Digest::SHA->new('sha256');
+    $sha->addfile($fn);
+    return $sha->hexdigest;
 }
 
 #
@@ -110,7 +132,7 @@ sub load_fo4_cache {
     while(<$fh>) {
         chomp;
         die unless /^([0-9a-f]{64,64}) ([0-9]+) ([^\r\n]+)$/;
-        $fo4cache{lc($3)} = {sha => $1, lmod => $2};
+        $fo4cache{$3} = {sha => $1, lmod => $2};
     }
     close $fh;
 }
@@ -136,29 +158,22 @@ sub update_fo4_cache {
     foreach my $f (@files) {
         my $lmod = (stat($f))[9] or die $!;
 
-        if (defined $fo4cache{lc($f)}) {
-            my $cache_lmod = $fo4cache{lc($f)}->{'lmod'} or die;
+        if (defined $fo4cache{$f}) {
+            my $cache_lmod = $fo4cache{$f}->{'lmod'} or die;
             if ($cache_lmod == $lmod) {
-                $fo4cache{lc($f)}->{'used'} = 1;
+                $fo4cache{$f}->{'used'} = 1;
                 next;
             }
         }
 
-        my $sha = Digest::SHA->new('sha256');
-        $sha->addfile($f);
+        my $sha = compute_sha_for_file($f);
 
-        $fo4cache{lc($f)} = {sha => $sha->hexdigest, lmod => $lmod, used => 1};
+        $fo4cache{$f} = {sha => $sha, lmod => $lmod, used => 1};
     }
     save_fo4_cache();
     print "Saved.\n";
 }
 update_fo4_cache();
-
-#
-# where to save snapshots
-#
-
-mkdir "snapshots" unless -d "snapshots";
 
 #
 # download unmanaged archives
@@ -294,14 +309,6 @@ sub unpack_archives {
 
     my @files = ();
 
-    sub compute_sha_for_file {
-        my $fn = shift;
-        die unless defined $fn;
-        my $sha = Digest::SHA->new('sha256');
-        $sha->addfile($fn);
-        return $sha->hexdigest;
-    }
-
     foreach my $archive (@archives) {
         next if -d "$archive.unpack";
         if ($archive =~ /\.rar$/i) {
@@ -400,7 +407,7 @@ sub load_sha_cache {
     while(<$fh>) {
         chomp;
         die unless /^([0-9a-f]{64,64}) ([0-9]+) ([^\r\n]+)$/;
-        $shacache{lc($3)} = {sha => $1, lmod => $2};
+        $shacache{$3} = {sha => $1, lmod => $2};
     }
     close $fh;
 }
@@ -428,18 +435,17 @@ sub update_sha_cache {
     foreach my $f (@files) {
         my $lmod = (stat($f))[9] or die $!;
 
-        if (defined $shacache{lc($f)}) {
-            my $cache_lmod = $shacache{lc($f)}->{'lmod'} or die;
+        if (defined $shacache{$f}) {
+            my $cache_lmod = $shacache{$f}->{'lmod'} or die;
             if ($cache_lmod == $lmod) {
-                $shacache{lc($f)}->{'used'} = 1;
+                $shacache{$f}->{'used'} = 1;
                 next;
             }
         }
 
-	    my $sha = Digest::SHA->new('sha256');
-	    $sha->addfile($f);
+        my $sha = compute_sha_for_file($f);
 
-        $shacache{lc($f)} = {sha => $sha->hexdigest, lmod => $lmod, used => 1};
+        $shacache{$f} = {sha => $sha, lmod => $lmod, used => 1};
     }
     save_sha_cache();
     print "Saved.\n";
@@ -451,15 +457,15 @@ sub restore {
 
     my $cnt_missing = 0;
     foreach my $fn (sort keys %$files) {
-        my $ref = $files->{lc($fn)} or die;
+        my $ref = $files->{$fn} or die;
         my $sha = $ref->{'sha'} or die;
 
         next if $ref->{'done'};
 
         # check existing file's checksum:
         if (-e $fn) {
-            die unless exists $shacache{lc($fn)}; # existing active files should always be in current sha cache
-            my $existing_sha = $shacache{lc($fn)}->{'sha'} or die;
+            die unless exists $shacache{$fn}; # existing active files should always be in current sha cache
+            my $existing_sha = $shacache{$fn}->{'sha'} or die;
             if ($sha eq $existing_sha) {
                 $ref->{'done'} = 1;
                 next;
@@ -508,7 +514,7 @@ if (defined($opt_restore)) {
     while(<$fh>) {
         chomp;
         /^([0-9a-f]{64,64}) ([^\r\n]+)$/ or die "$_";
-        $files{lc($2)} = {sha => $1};
+        $files{$2} = {sha => $1};
     }
     close $fh;
 
@@ -519,7 +525,7 @@ if (defined($opt_restore)) {
     # remove files not in snapshot file list
     foreach my $fn (sort keys %shacache) {
         # existing file not in snapshot?
-        unless (exists $files{lc($fn)}) {
+        unless (exists $files{$fn}) {
             print "deleting $fn\n" if $opt_verbose;
             unless ($opt_dryrun) {
                 if (-e $fn) {
@@ -542,6 +548,17 @@ if (defined($opt_restore)) {
         add_snapshot_files_to_lookup_table($snapdir);
         print "Restoring files (2nd and last try)...\n";
         restore(\%files, 0) or die "failed to resolve some files";
+    }
+
+    # fix game path
+    if (-f "ModOrganizer.ini") {
+        print "Fixing gamePath\n";
+        my $awdir=`cygpath -aw .` or die $!;
+        chomp($awdir);
+        $awdir =~ s/\\/\\\\/g;
+        my $t = read_file("ModOrganizer.ini") or die $!;
+        $t =~ s/^gamePath=\@ByteArray\(.*?(\\\\[^\\]+)\\*\)[\r\n]*$/gamePath=\@ByteArray($awdir$1)/m;
+        write_file("ModOrganizer.ini", $t) or die $!;
     }
 
     print "Snapshot restored from: $snapdir\n";
