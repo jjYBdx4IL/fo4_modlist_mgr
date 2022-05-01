@@ -4,9 +4,9 @@ FROST-Fast is a very performance-oriented FROST mod list. It should run fine on 
 
 - based on: https://github.com/richardaubin/FROST-Fast v1.5.2 (check it out for Optional High-Res Textures and how to modify ini files in case you want to modify your own ini files and not use the included ones)
 
-## Current Blocking Bugs
+## Game-Breaking Bugs
 
-- sanity won't recover when using items
+- none known
 
 ## Homepage
 
@@ -53,6 +53,10 @@ You are done with installation!
 -  FROST Unofficial Updates - Outdated and Incompatible FROST mods and patches:
   - https://www.nexusmods.com/fallout4/articles/3392 
 - https://www.reddit.com/r/fodust/comments/m2fp77/list_of_frost_expansion_mods/
+- Essentials:
+  - https://www.reddit.com/r/fodust/comments/mc77bs/frost_ultimate_guide_for_beginners_advanced/
+  - Frost Modding: Designed for Newbies: https://docs.google.com/document/d/145k1OWDNetfPIB46hNB-AFaakn4Snxcj9NbUvbjyYhQ/edit
+  - A (More) Comprehensive List of Mods for FROST! https://docs.google.com/document/d/1S9OpgbcNGCplKM_BrnksRCu8Y3vqYMkHkY4rXseZ0zE/edit
 
 ## TODO
 

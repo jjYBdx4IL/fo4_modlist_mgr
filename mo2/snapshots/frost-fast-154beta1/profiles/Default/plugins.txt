@@ -44,21 +44,21 @@
 *LooksMenu.esp
 *FROST.esp
 *RedsFrostFixes.esp
-*FROST Feral Fix.esp
-*FROSTmoreDoors.esp
 *FrostNukaWorld.esp
-*FROST - It Snowed.esp
 *aFrostMod.esp
+*FROSTmoreDoors.esp
+*Frost PipTab.esp
+*FROST Feral Fix.esp
+*FROST - It Snowed.esp
 *IV_Misc_BoiledWaterBottles.esp
 *IV_LootableCars_Misc_Stable.esp
 *FROST - UFO4P Patch.esp
 *Freeze.esp
-*Frost PipTab.esp
-*FROST Portable Instant Workbench.esp
 *FROST - AccessibleArcJet.esp
 *FROST - AccessibleMedTekResearch.esp
 *FROST - AccessibleFortStrong.esp
 *FROST - AccessibleFortHagen.esp
+*FROST Portable Instant Workbench.esp
 *RRTV_FROST_DT_Workbenches.esp
 *shep frost downtown rooms.esp
 *FROST - SuperMutantLocations.esp
