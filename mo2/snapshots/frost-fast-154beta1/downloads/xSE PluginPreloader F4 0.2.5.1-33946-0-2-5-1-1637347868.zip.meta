@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=33946
+fileID=221778
+url=
+name=xSE PluginPreloader F4 0.2.5.1
+description=
+modName=xSE PluginPreloader F4
+version=0.2.5.1
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=38
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=true
+uninstalled=false
+paused=false
+removed=false

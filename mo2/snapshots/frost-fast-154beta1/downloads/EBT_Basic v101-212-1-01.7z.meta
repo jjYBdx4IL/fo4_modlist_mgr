@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=212
+fileID=54175
+url=
+name=EBT_Basic v101
+description=Textures only: Install only one main download. This is the recommended version of the mod to use for the best stable experience and compatibility (default download)
+modName=Enhanced Blood Textures
+version=f1.01
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=19
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

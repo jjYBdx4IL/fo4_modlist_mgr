@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=41625
+fileID=177722
+url=
+name=Ultra Exterior Lighting
+description="This mod adds over 1500 shadow cast lights to physical lights in the Fallout 4 world including the Commonwealth, Far harbor and Nuka World and generally improves all the lighting associated with physical lights including the ambient lighting, etc."
+modName=Ultra Exterior Lighting
+version=f1.04
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=40
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

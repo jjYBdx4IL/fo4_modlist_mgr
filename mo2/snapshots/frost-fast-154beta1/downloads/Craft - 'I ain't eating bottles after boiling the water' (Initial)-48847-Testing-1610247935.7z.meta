@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=48847
+fileID=198690
+url=
+name=Craft - Bottleback - A crafted boiled bottle insurance policy (Initial)
+description="Crafting 'Boiled Water' normally requires 3 bottles of 'Dirty Water'; With this you'll be able to reclaim 2 random empty bottles after crafting 'Boiled Water' at the Cooking Station."
+modName=FROST Plus v0.5.2 (WIP)
+version=Testing
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=5
+category=24
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=5149
+fileID=16938
+url=
+name=Reduced Explosion Force
+description=This will reduce the amount of force applied to items and bodies to about half
+modName=Realistic Ragdoll Force
+version=1.1.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=3
+category=15
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

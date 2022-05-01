@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=25114
+fileID=152852
+url=
+name=Smoke Visibility Options
+description="includes different visibility options for you to choose from. you can use this to tweak how smoke looks relevant to your enb/ weather mod configuration. whether you want it thick, or more subtle.\n<br /><br />"
+modName=Spitfire (Enhanced Muzzle FX)
+version=0.2.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=3
+category=40
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=22101
+fileID=165082
+url=
+name=Ultra Interior Lighting
+description="This is a comprehensive lighting mod that brings you many more shadow lights and a general improvement to overall lighting and ambience to the interiors of the Commonweatlh, Far Harbor, Nuka World and the Automatron interior cells."
+modName=Ultra Interior Lighting
+version=2.3.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=40
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

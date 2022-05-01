@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=50008
+fileID=201219
+url=
+name=FROST - Hunkered Down - settlements
+description=Additional file for settlements locations.\n<br />
+modName=FROST - Hunkered Down - Commonwealth Overhaul
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=3
+category=51
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

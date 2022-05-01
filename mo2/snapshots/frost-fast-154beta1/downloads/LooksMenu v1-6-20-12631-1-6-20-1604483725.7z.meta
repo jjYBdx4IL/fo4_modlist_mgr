@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=12631
+fileID=194291
+url=
+name=LooksMenu v1-6-20
+description=Requires F4SE 0.6.17 or greater (Game Version 1.10.163)
+modName=LooksMenu
+version=1.6.20.0
+newestVersion=0.0.0.0
+fileTime="@DateTime(\0\0\0\x10\0\0\0\0\0\0%=\x9e\x3&\xf1\r\0)"
+fileCategory=1
+category=37
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

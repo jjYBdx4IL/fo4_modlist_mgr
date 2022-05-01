@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=49997
+fileID=201941
+url=
+name=Photo Mode 1.0.3
+description="Version 1.0.3\n<br />- Fixed an issue where dying in Photo Mode would lock up controls.\n<br />- Prevent Photo Mode from being started while aiming through a scope.\n<br />- Prevent \"Show Player\" from incorrectly toggling the 3rd person player model when in 1st person mode.\n<br />- \"Photo Mode\" option in the Pause menu will now be greyed out when unavailable instead of simply closing the menu without starting Photo Mode.\n<br /><br />For the full changelog, expand the \"Changelogs\" section on the mod description page."
+modName=FO4 Photo Mode
+version=1.0.3.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=37
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

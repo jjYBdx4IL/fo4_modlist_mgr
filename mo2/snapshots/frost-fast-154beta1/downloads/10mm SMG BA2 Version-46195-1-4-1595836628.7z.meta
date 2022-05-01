@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=46195
+fileID=187780
+url=
+name=10mm SMG BA2 Version
+description="Got CK working, unlazied myself to do this properly."
+modName=Fallout 3 10mm SMG
+version=1.4.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=41
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

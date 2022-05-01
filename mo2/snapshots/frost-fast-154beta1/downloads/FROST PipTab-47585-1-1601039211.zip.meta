@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=47585
+fileID=191921
+url=
+name=FROST PipTab
+description=
+modName=FROST Sanity Tab
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime="@DateTime(\0\0\0\x10\0\0\0\0\0\0%=\x9e\x2\xf2\x61\xeb\0)"
+fileCategory=1
+category=37
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

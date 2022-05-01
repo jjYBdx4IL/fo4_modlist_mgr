@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=11734
+fileID=227186
+url=
+name=Campsite - Simple Wasteland Camping
+description="Craftable camping gear in multiple HD colors, and a bed for Dogmeat with petting animations! Files now packaged into BA2 archives. Camping book no longer required to craft Workshop items. Full Night's Sleep for Survival Mode now integrated."
+modName=Campsite - Simple Wasteland Camping (and HD Sleeping Bags)
+version=1.0.2.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=4
+category=15
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

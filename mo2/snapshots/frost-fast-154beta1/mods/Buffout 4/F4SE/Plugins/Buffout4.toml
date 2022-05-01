@@ -1,0 +1,33 @@
+[Fixes]
+ActorIsHostileToActor = true   # Fixes a crash when invoking Actor.IsHostileToActor with a none form
+CellInit = true                # Fixes a crash where a form does not get converted to a form pointer on unloaded cells
+EncounterZoneReset = true      # Fixes encounter zones resetting immediately once you leave them on foot
+GreyMovies = true              # Fixes a bug where movies that don't define "BackgroundAlpha" on their movie root could load with a grey background
+MagicEffectApplyEvent = true   # Fixes a crash when magic effect apply events are dispatched on null references
+MovementPlanner = true         # Fixes a bug where the the movement planner crashes with non-actors
+PackageAllocateLocation = true # Fixes a crash when allocating the location for a package
+SafeExit = true                # Fixes crashes related to exiting the game that can be caused erroneously by F4SE plugin hooks
+UnalignedLoad = true           # Fixes a crash related to SIMD intrinsics with an aligned move on unaligned memory
+UtilityShader = true           # Fixes a crash when a shader can't be found for a given technique id
+
+[Patches]
+Achievements = true               # Enables achievements on modded saves
+BSMTAManager = true               # General rendering performance improvement
+BSPreCulledObjects = true         # General rendering performance improvement
+BSTextureStreamerLocalHeap = true # Replaces the texture streamer's local heap with os allocators
+HavokMemorySystem = true          # Replaces the havok memory system with os allocators
+INISettingCollection = true       # Massively improves startup times for large load orders by optimizing ini setting loading
+InputSwitch = true               # Automatically swaps inputs between kb+m/controller
+MaxStdIO = -1                     # Replaces the maximum stdio handles
+MemoryManager = true              # Replaces the global memory manager with os allocators
+MemoryManagerDebug = false        # Enables debug tracing to determine faulting modules
+ScaleformAllocator = true         # Replaces the scaleform memory allocator with os allocators
+SmallBlockAllocator = true        # Replaces the small block memory allocators with os allocators
+WorkshopMenu = true               # Alleviates lag while opening the workshop menu
+
+[Warnings]
+CreateTexture2D = true   # Warns when a call to CreateTexture2D fails
+ImageSpaceAdapter = true # Warns on bad IMAD definitions which will corrupt your memory and crash your game
+
+[Compatibility]
+F4EE = true # 1.6.20 - Patches various LooksMenu bugs

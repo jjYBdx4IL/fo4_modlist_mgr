@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=53024
+fileID=225692
+url=
+name=FROST Lore-Tweaked Sanity Loss v2.3
+description="Adds support for RFF and FROST+'s Redeemers, Hallucinations, and Chinese Remnants Factions."
+modName=FROST Lore-Tweaked Sanity Loss
+version=2.3.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=51
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

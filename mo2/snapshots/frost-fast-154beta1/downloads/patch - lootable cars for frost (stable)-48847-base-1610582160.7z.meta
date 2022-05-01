@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=48847
+fileID=198990
+url=
+name=Patch - Lootable Cars for Frost (Stable)
+description="Do NOT use this, this mod will be removed in a few days as I just got it out of WIP.\n<br />Use the NEW: https://www.nexusmods.com/fallout4/mods/57960"
+modName=FROST Plus v0.5.2 (WIP)
+version=Base
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=7
+category=24
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

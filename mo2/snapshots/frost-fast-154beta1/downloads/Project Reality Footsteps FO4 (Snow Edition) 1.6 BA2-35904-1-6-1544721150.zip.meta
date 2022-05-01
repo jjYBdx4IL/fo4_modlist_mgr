@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=35904
+fileID=147945
+url=
+name=Project Reality Footsteps FO4 (Snow Edition) 1.6 BA2
+description=Standalone. Uninstall previous versions first.
+modName=Project Reality Footsteps FO4
+version=1.6.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=3
+category=33
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

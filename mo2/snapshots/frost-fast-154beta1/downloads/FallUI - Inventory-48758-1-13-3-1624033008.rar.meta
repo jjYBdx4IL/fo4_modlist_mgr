@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=48758
+fileID=210547
+url=
+name=FallUI - Inventory
+description=FOMOD installer. Interface is multi-language.\n<br />Installation instructions available on the mod main page.
+modName=FallUI - Inventory
+version=1.13.3.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=37
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=true
+uninstalled=false
+paused=false
+removed=false

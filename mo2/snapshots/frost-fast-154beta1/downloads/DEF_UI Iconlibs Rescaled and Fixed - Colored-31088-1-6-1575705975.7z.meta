@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=31088
+fileID=172178
+url=
+name=DEF_UI Iconlibs Rescaled and Fixed - Colored
+description=Requires a white HUD for colors to display correctly. Includes Interface Vignette Removal from the optional files.
+modName=DEF_UI Iconlibs Rescaled and Fixed
+version=1.6.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=37
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

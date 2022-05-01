@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=25114
+fileID=142668
+url=
+name=Spitfire - Extra Options
+description="This contains more customization options for  muzzle flash textures, and options to replace heat haze effect or turn it off.. This also includes a new experimental smoke puff system, which will eventually be included in the main file"
+modName=Spitfire (Enhanced Muzzle FX)
+version=0.1.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=3
+category=40
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=54564
+fileID=217198
+url=
+name=FROST - Accessible Med-Tek Research
+description="Opens Med-Tek Research for exploration in FROST. Requires FROST, even though it doesn't modify any FROST records. You really don't want this mod if you are pursuing MacCready's perk in vanilla FO4."
+modName=FROST - Accessible Med-Tek Research
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=47
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

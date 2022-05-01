@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=54129
+fileID=215945
+url=
+name=GNN National Broadcast - Main File  (FIXED)
+description="<b>Fixes the loop bug &amp; volume. Please re-download!</b>\n<br /><br />Adds in a new, standalone radio station.\n<br />Effectively redirects all radios, pre-tuned to Diamond City Radio (or Frost's Galaxy News Radio) to the new GNN National Broadcast.\n<br /><br />Say goodbye to Travis."
+modName=GNN National Broadcast - Diamond City Radio without Travis (2.0.0 Update)
+version=2.0.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=31
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

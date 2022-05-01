@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=39619
+fileID=160352
+url=
+name=FROST Downtown Linked Workbenches v1.0
+description="This small patch for FROST adds additional workbenches to the Downtown and Valenti Station cells, and links them all together to shared safe storage."
+modName=FROST Downtown Linked Workbenches
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=25
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false

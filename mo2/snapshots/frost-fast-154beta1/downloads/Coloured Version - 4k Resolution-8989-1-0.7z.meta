@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout4
+modID=8989
+fileID=34142
+url=
+name=Coloured Version - 4k Resolution
+description="Remember to apply the additional ini tweaks&#33;"
+modName=Satellite World Map
+version=1.0.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=3
+category=37
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=false
+uninstalled=false
+paused=false
+removed=false
