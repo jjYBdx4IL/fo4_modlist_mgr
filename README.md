@@ -42,6 +42,9 @@ All currently available mod lists are stored in [mo2/snapshots/](mo2/snapshots/)
   - `mods/*/meta.ini` files are included because they provide the information necessary to download nexus mod archives.
   - `downloads/*.meta` files should be included because they make it easier to update the restored modlist.
 - Stuff like F4SE cannot be installed via MO2. Place archive download links for archives not managed by MO2 into `manual_urls.txt`, which will be included (as most other files in the MO2 folder and below) in any created modlist snapshot.
+  - General rule: all nexusmods.com FO4 archives need to be downloaded and installed via ModOrganizer2, even (as is the case for f4se) if contained files need a manual copy operation.
+  - The rest of the downloads are manual direct links placed in `manual_urls.txt`.
+  - This imples that there currently is no support for non-FO4 modules from nexusmods.com. If an archive does not have any license restrictions, you can simply not provide any download source, which will force it to be included with saved snapshots directly.
 - Example command to check for suspicious files in a modlist snapshot:
   - `find snapshots/frost-fast-153 -type f | grep -v "\.\(ini\|meta\|txt\)$"`
 

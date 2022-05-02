@@ -33,7 +33,8 @@ You are done with installation!
 
 ## Maintenance
 
-- If you change/add/remove any mod related to item sorting, you have to re-run R88SimpleSorter.bat from MO2 (select "New Patch" and leave everything else as it is, that will update complex_sorter_list.esp together with FO4Edit backups in the overwrite/ directory - you should remove the backup files before saving the finished mod list). 
+- If you change/add/remove any mod related to item sorting, you have to re-run R88SimpleSorter.bat from MO2 (select "New Patch" and leave everything else as it is, that will update complex_sorter_list.esp in the R88SimpleSorter OUTPUT mod). 
+  - the process also generates a log file in FO4Edit/ which you might want to remove before saving the modlist.
 - FallUI: install everything (incl sorter mod tags) except the sorter mod itself
 
 ## Notes
@@ -47,6 +48,7 @@ You are done with installation!
 - Scavver's Toolbox freezes game when used while wearing power armor: https://www.nexusmods.com/fallout4/mods/17507?tab=bugs
 - FROST Lore Tweaked Sanity Loss: disabled because it prevents sanity from falling.
 - Marshes DLC has some see-through debris piles
+- disabled FCF_PrevisibinesForest.esp because it produces massive rendering glitches when approaching the Forest DLC marker from Tenpines Bluff.
 
 ## Additional Links
 
