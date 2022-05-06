@@ -45,10 +45,9 @@ You are done with installation!
 
 ## Bugs
 
-- Scavver's Toolbox freezes game when used while wearing power armor: https://www.nexusmods.com/fallout4/mods/17507?tab=bugs
-- FROST Lore Tweaked Sanity Loss: disabled because it prevents sanity from falling.
-- Marshes DLC has some see-through debris piles
-- disabled FCF_PrevisibinesForest.esp because it produces massive rendering glitches when approaching the Forest DLC marker from Tenpines Bluff.
+- bad graphics performance around Bunker Hill (NW?)
+- minor: Scavver's Toolbox freezes game when used while wearing power armor: https://www.nexusmods.com/fallout4/mods/17507?tab=bugs
+- (FROST Lore Tweaked Sanity Loss: disabled because it prevents sanity from falling.)
 
 ## Additional Links
 
